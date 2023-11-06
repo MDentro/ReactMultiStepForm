@@ -1,0 +1,51 @@
+.inputfield-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 20px 0;
+}
+
+.label-error-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: var(--marineBlue);
+}
+
+.error {
+  margin: 0;
+  color: var(--strawberryRed);
+  font-weight: 400;
+  visibility: hidden;
+  font-size: 10px;
+}
+
+.error.active {
+  visibility: visible;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid var(--lightGray);
+  padding: 10px;
+  cursor: pointer;
+}
+
+input.active {
+  border: 1px solid var(--strawberryRed);
+}
+
+input[type='text']:focus,
+input[type='email']:focus {
+  outline: none;
+  border: 1px solid var(--purplishBlue);
+}
+
+input[type='text']:focus.active,
+input[type='email']:focus.active {
+  border: 1px solid var(--strawberryRed);
+}

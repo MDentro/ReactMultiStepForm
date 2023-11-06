@@ -1,0 +1,15 @@
+.plan-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 700px) {
+  .plan-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    flex-direction: row;
+  }
+}

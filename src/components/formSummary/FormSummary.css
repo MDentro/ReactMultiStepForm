@@ -1,0 +1,72 @@
+.calculation-wrapper {
+  background-color: var(--magnolia);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.calculation-wrapper-plan {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.summary-plan {
+  height: 100%;
+}
+
+.summary-plan-price {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.divider {
+  border-top: 1px solid var(--coolGray);
+  margin: 10px 0 10px 0;
+}
+
+.change-button {
+  all: unset;
+  cursor: pointer;
+  text-decoration: underline;
+  color: var(--coolGray);
+  font-size: 14px;
+}
+
+.plan-title,
+.price {
+  color: var(--marineBlue);
+  font-weight: 700;
+  margin: 0;
+}
+
+.summary-add-on {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+}
+.summary-total-wrapper > p:first-child,
+.summary-add-on > p:first-child {
+  color: var(--coolGray);
+  font-size: 14px;
+}
+
+.summary-total-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.summary-price {
+  color: var(--marineBlue);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.total {
+  color: var(--purplishBlue);
+  font-weight: 700;
+}

@@ -1,0 +1,29 @@
+.thank-you-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: -80px;
+  min-height: 250px;
+  background-color: var(--white);
+}
+
+.thank-you-title {
+  color: var(--marineBlue);
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.thank-you-text {
+  color: var(--coolGray);
+  font-size: 14px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .thank-you-wrapper {
+    margin-top: unset;
+  }
+}

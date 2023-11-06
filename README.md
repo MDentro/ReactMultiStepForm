@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Frontend Mentor - Multi-step form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## The challenge
 
-## Available Scripts
+Your challenge is to build out this multi-step form and get it looking as close to the design as possible.
 
-In the project directory, you can run:
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-### `npm start`
+Your users should be able to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Complete each step of the sequence
+- Go back to a previous step to update their selections
+- See a summary of their selections on the final step and confirm their order
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+- Receive form validation messages if:
+  - A field has been missed
+  - The email address is not formatted correctly
+  - A step is submitted, but no selection has been made
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+### Desktop
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![screenshot desktop](./assets/desktopStep1.PNG)
 
-### `npm run build`
+![screenshot desktop](./assets/desktopStep2Monthly.PNG)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![screenshot desktop](./assets/desktopStep2Yearly.PNG)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![screenshot desktop](./assets/desktopStep3Monthly.PNG)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![screenshot desktop](./assets/desktopStep3Yearly.PNG)
 
-### `npm run eject`
+![screenshot desktop](./assets/desktopStep4Monthly.PNG)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![screenshot desktop](./assets/desktopStep4Yearly.PNG)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![screenshot desktop](./assets/desktopStep5.PNG)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Mobile
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![screenshot mobile](./assets/mobileStep1.PNG)
 
-## Learn More
+![screenshot mobile](./assets/mobileStep2Monthly.PNG)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![screenshot mobile](./assets/mobileStep2Yearly.PNG)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![screenshot mobile](./assets/mobileStep3Monthly.PNG)
 
-### Code Splitting
+![screenshot mobile](./assets/mobileStep3Yearly.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![screenshot mobile](./assets/mobileStep4Monthly.PNG)
 
-### Analyzing the Bundle Size
+![screenshot mobile](./assets/mobileStep4Yearly.PNG)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![screenshot mobile](./assets/mobileStep5.PNG)
